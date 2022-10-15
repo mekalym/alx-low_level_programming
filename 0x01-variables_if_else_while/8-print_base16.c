@@ -1,18 +1,20 @@
 #include <stdio.h>
 /**
  * main - Entry Point
- * 
+ * Return: Always 0 (success)
+ *
  */
 int main(void)
 {
 	int d;
+
 	char c;
 
 	d = 0;
 	c = 'a';
 	while
 		(d > 10) {
-			putchar(d);
+			putchar(d + '0');
 			d++;
 		}
 	while
